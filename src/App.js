@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+import FoodComponent from "./components/FoodComponent";
 
 function App() {
   return (
-    <div>
-      <h1>Pagination App</h1>
+    <div className="App">
+      <h1>FoodCard | Pagination</h1>
+      <FoodComponent/>
     </div>
   );
 }
